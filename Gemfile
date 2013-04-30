@@ -7,12 +7,14 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'twitter-bootstrap-rails', '>= 2.0.3'
   gem 'therubyracer', :platform => :ruby
+  gem 'less-rails-fontawesome'
 end
 
 gem 'active_attr'
 
 gem 'jquery-rails'
 gem 'less'
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 
 gem 'bson_ext', '>= 1.6.2'
 gem 'mongoid', '>= 2.4.9'
